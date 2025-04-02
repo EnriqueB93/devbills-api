@@ -6,9 +6,13 @@
     "dev": "tsx watch ./src/server.ts"
   },
   "keywords": [],
-  "author": "Enrque Blanco",
+  "author": {
+    "name": "Enrique Blanco",
+    "email": "enrquejblancob93@gmail.com",
+    "url": "https://github.com/EnriqueB93"
+  },
   "license": "ISC",
-  "description": "Devills",
+  "description": "Devbills API - cotrole su vida finciera de formas simples y rapidas",
   "devDependencies": {
     "@biomejs/biome": "1.9.4"
   },

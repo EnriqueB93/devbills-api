@@ -1,0 +1,18 @@
+# Dependencias de Node.js
+node_modules/
+package-lock.json
+
+# Archivos de entorno (claves API, configuración privada)
+.env
+
+# Caché y archivos generados automáticamente
+dist/
+build/
+.DS_Store
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Archivos de logs y depuración
+*.log

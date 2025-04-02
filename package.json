@@ -1,0 +1,19 @@
+{
+  "name": "devbills-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "Enrque Blanco",
+  "license": "ISC",
+  "description": "Devills",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "express": "^5.1.0"
+  }
+}

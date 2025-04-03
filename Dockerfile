@@ -2,9 +2,14 @@ FROM node:18-alpine
 
 WORKDIR /home/app
 
-COPY . ./
+# Primero copia solo los archivos de dependencias
+COPY package.json package-lock.json ./
 
-RUN npm i
+# Instala las dependencias en el entorno Alpine Linux
+RUN npm ci
+
+# Ahora copia el resto del código fuente (excepto lo ignorado en .dockerignore)
+COPY . .
 
 EXPOSE 3333
 

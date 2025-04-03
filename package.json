@@ -14,10 +14,14 @@
   "license": "ISC",
   "description": "Devbills API - cotrole su vida finciera de formas simples y rapidas",
   "devDependencies": {
-    "@biomejs/biome": "1.9.4"
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.14.0"
   },
   "dependencies": {
     "@types/express": "^5.0.1",
-    "express": "^5.1.0"
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.1",
+    "tsx": "^4.19.3"
   }
 }

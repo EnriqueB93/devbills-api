@@ -6,7 +6,6 @@ export async function setupMongo(): Promise<void> {
 			return;
 		}
 		console.log('MongoDB is already connected');
-		console.log(process.env.MONGO_URL);
 		await mongoose.connect(process.env.MONGO_URL as string);
 		console.log('MongoDB is connected');
 	} catch {
